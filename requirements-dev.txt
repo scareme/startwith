@@ -1,0 +1,8 @@
+black==22.6.0
+pylint==2.14.5
+mypy==0.981
+isort==5.9.3
+flake8==6.0.0
+jupyter==1.0.0
+numpy==1.23.5
+matplotlib==3.7.0
