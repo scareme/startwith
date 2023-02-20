@@ -1,2 +1,6 @@
 mlruns/*
-!mlruns/.gitkeep
+!mlruns/README.md
+
+.DS_Store
+.mypy-cache
+notebooks/.ipynb_checkpoints/
