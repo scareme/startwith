@@ -1,7 +1,10 @@
 {
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
-    "python.defaultInterpreterPath": "${env:CONDA_PREFIX_1}/envs/mlops/bin/python",
+    "editor.rulers": [
+        120
+    ],
+    "python.defaultInterpreterPath": "${env:CONDA_PREFIX_1}/envs/infer/bin/python",
     "python.linting.enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.flake8Enabled": true,
@@ -11,7 +14,7 @@
         "${workspaceFolder}/pyproject.toml"
     ],
     "python.linting.flake8Args": [
-        "--config",
+        "--toml-config",
         "${workspaceFolder}/pyproject.toml"
     ],
     "python.linting.mypyArgs": [
