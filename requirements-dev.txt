@@ -6,3 +6,4 @@ flake8==6.0.0
 jupyter==1.0.0
 numpy==1.23.5
 matplotlib==3.7.0
+Flake8-pyproject
