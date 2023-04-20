@@ -15,7 +15,7 @@ max-args = 6
 
 [tool.pylint.format]
 max-line-length = 119
-good-names= ["p", "i", "k", "x1", "x2", "y1", "y2", "df", "x", "y"]
+good-names= ["j", "i", "k", "x1", "x2", "y1", "y2", "df", "x", "y"]
 
 [tool.pylint.message_control]
 disable = [
@@ -25,15 +25,19 @@ disable = [
     'missing-class-docstring',
     'too-few-public-methods',
     'unspecified-encoding',
+    'redefined-outer-name'
 ]
 
 [tool.pylint.similarities]
 min-similarity-lines=10
+
+[tool.flake8]
+max-line-length = 119
 
 [tool.pytest.ini_options]
 filterwarnings = [
     'ignore:.*has been renamed to.* :UserWarning',
     'ignore:.*FileType Enum is Deprecated.*:DeprecationWarning',
     'ignore:.*the imp module is deprecated in favour of importlib.*:DeprecationWarning',
-    'ignore:.*is a deprecated alias for the builtin.*:DeprecationWarning',
+    'ignore:.*is a deprecated alias for the builtin.*:DeprecationWarning'
 ]
