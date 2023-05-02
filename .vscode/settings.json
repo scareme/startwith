@@ -4,11 +4,12 @@
     "editor.rulers": [
         120
     ],
-    "python.defaultInterpreterPath": "${env:CONDA_PREFIX_1}/envs/infer/bin/python",
+    "python.defaultInterpreterPath": "${env:CONDA_PREFIX_1}/envs/mlops/bin/python",
     "python.linting.enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": true,
+    "python.linting.banditEnabled": true,
     "python.linting.pylintArgs": [
         "--rcfile",
         "${workspaceFolder}/pyproject.toml"

@@ -2,9 +2,7 @@
 Contains cloud-specific code like templates to create an Azure Machine Learning workspace
 
 ## Installation
-- Create a resource group and set as default
+- Create a resource group and AML workspace
 ```bash
-    $ az group create --name "some-group-name-dev-rg" --location "some-location"
-    $ az configure --defaults group="some-group-name-dev-rg"
+    $ sh create-aml.sh
 ```
-- по идее надо просто в отдельный баш файл
