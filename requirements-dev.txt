@@ -7,4 +7,5 @@ jupyter==1.0.0
 numpy==1.23.5
 matplotlib==3.7.0
 bandit[toml]==1.7.5
-Flake8-pyproject
+Flake8-pyproject==1.2.3
+safety==2.3.5
