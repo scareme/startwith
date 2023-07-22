@@ -13,8 +13,8 @@ with Path("requirements.txt").open() as file:
 
 setup(
     name="src",
-    packages=find_packages(exclude=["tests"]),
-    author="Me",
+    packages=find_packages(include=["src"]),
+    author="Kirill Ivanov",
     version="1.0",
     include_package_data=True,
     install_requires=dependencies

@@ -1,4 +1,4 @@
-name: infer
+name: <name>
 channels:
 - conda-forge
 dependencies:

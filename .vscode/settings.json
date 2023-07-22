@@ -4,7 +4,7 @@
     "editor.rulers": [
         120
     ],
-    "python.defaultInterpreterPath": "${env:CONDA_PREFIX_1}/envs/mlops/bin/python",
+    "python.defaultInterpreterPath": "${env:CONDA_PREFIX_1}/envs/<name>/bin/python",
     "python.linting.enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.flake8Enabled": true,
