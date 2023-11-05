@@ -4,6 +4,8 @@ from pathlib import Path
 
 from setuptools import find_packages, setup
 
+from startwith.version import __version__
+
 readme = Path(__file__).parent / "README.md"
 
 
@@ -12,10 +14,10 @@ with Path("requirements.txt").open() as file:
 
 
 setup(
-    name="src",
-    packages=find_packages(include=["src"]),
+    name="startwith",
+    packages=find_packages(include=["startwith"]),
     author="Kirill Ivanov",
-    version="1.0",
+    version=__version__,
     include_package_data=True,
-    install_requires=dependencies
+    install_requires=dependencies,
 )

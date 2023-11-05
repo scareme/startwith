@@ -2,3 +2,9 @@
 .mypy-cache
 notebooks/.ipynb_checkpoints/
 src.egg-info
+__pycache__
+.mypy_cache
+.pytest_cache
+*.egg-info
+.coverage
+htmlcov

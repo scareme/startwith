@@ -1,34 +1,7 @@
 {
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
-    "editor.rulers": [
-        120
+    "python.testing.pytestArgs": [
+        "tests"
     ],
-    "python.defaultInterpreterPath": "${env:CONDA_PREFIX_1}/envs/<name>/bin/python",
-    "python.linting.enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.banditEnabled": true,
-    "python.linting.pylintArgs": [
-        "--rcfile",
-        "${workspaceFolder}/pyproject.toml"
-    ],
-    "python.linting.flake8Args": [
-        "--toml-config",
-        "${workspaceFolder}/pyproject.toml"
-    ],
-    "python.linting.mypyArgs": [
-        "--config-file",
-        "${workspaceFolder}/pyproject.toml"
-    ],
-    "python.formatting.blackArgs": [
-        "--config",
-        "${workspaceFolder}/pyproject.toml"
-    ],
-    "[python]": {
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    }
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }

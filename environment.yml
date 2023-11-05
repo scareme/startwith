@@ -1,10 +1,10 @@
-name: <name>
+name: dev-startwith
 channels:
-- conda-forge
+  - conda-forge
 dependencies:
-- python=3.8
-- pip
-- pip:
-  - -r requirements.txt
-  - -r requirements-dev.txt
-  - -e .
+  - python=3.8
+  - pip
+  - pip:
+    - setuptools==68.2.2
+    - -e .
+    - -r requirements-dev.txt

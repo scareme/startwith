@@ -2,13 +2,12 @@
 line-length = 119
 target-version = ['py38']
 
-[tool.isort]
-profile = "black"
 
 [tool.mypy]
 files = 'src/**/*.py, tests/**/*.py'
 ignore_missing_imports = true
 disable_error_code = ['override']
+
 
 [tool.pylint.design]
 max-args = 6
@@ -31,8 +30,6 @@ disable = [
 [tool.pylint.similarities]
 min-similarity-lines=10
 
-[tool.flake8]
-max-line-length = 119
 
 [tool.pytest.ini_options]
 filterwarnings = [
@@ -40,4 +37,10 @@ filterwarnings = [
     'ignore:.*FileType Enum is Deprecated.*:DeprecationWarning',
     'ignore:.*the imp module is deprecated in favour of importlib.*:DeprecationWarning',
     'ignore:.*is a deprecated alias for the builtin.*:DeprecationWarning'
+]
+
+
+[tool.coverage.run]
+source = [
+    "./startwith",
 ]
