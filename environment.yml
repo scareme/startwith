@@ -5,6 +5,5 @@ dependencies:
   - python=3.8
   - pip
   - pip:
-    - setuptools==68.2.2
+    - setuptools
     - -e .
-    - -r requirements-dev.txt

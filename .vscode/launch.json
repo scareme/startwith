@@ -5,16 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "debug train",
-            "type": "python",
+            "name": "debug",
+            "type": "debugpy",
             "request": "launch",
-            "program": "src/model/train.py",
+            "program": "src/version.py",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": [
-                "--training_data",
-                "notebooks/data/"
-            ],
+            // "args": [
+            //     "--training_data",
+            //     "notebooks/data/"
+            // ],
             "cwd": "${workspaceFolder}"
         }
     ]
