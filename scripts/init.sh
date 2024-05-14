@@ -6,4 +6,4 @@ sed -i '' "s/dev-startwith/$1-dev/" README.md
 git remote remove origin
 rm -rf .git --yes
 mv .vscode/startwith.code-workspace ".vscode/$1.code-workspace"
-code .vscode/startwith.code-workspace
+code ".vscode/$1.code-workspace"
