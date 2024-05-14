@@ -1,4 +1,6 @@
 # Get started
+1. git clone https://github.com/scareme/startwith.git
+2. startwith/scripts/init.sh demo
 
 ```bash
 conda deactivate
